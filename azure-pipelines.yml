@@ -10,7 +10,7 @@ steps:
 - task: Maven@4
   displayName: 'Build Spring Boot Application'
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: 'myRepoJavapom.xml'
     mavenOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.17'
